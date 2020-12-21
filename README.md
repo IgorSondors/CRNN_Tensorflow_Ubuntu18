@@ -87,4 +87,10 @@ tensorboard --logdir=папка_с_tfrecords
 
 ### Подготовка датасета
 
+### 
+
+### TODO
+
+- [] TF2
+- [] Add tensorflow service script
 
