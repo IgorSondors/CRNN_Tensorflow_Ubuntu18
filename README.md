@@ -92,7 +92,7 @@ python tools/train_shadownet.py --decode_outputs 1
 Ход тренировки модели можно контролировать с помощью tensorboard
 
 ```
-tensorboard --logdir=папка_с_tfrecords
+tensorboard --logdir=папка_с_tfevents
 ```
 
 ### Подготовка датасета
