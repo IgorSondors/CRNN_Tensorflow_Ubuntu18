@@ -100,6 +100,6 @@ tensorboard --logdir=папка_с_tfevents
 
 ### TO DO
 
-- [ ] Переписать распознаватель под TF2, сложность в замене [tesorflow.contrib](https://github.com/IgorSondors/CRNN_Tensorflow_Ubuntu18/blob/cbaa4d5c789d3fa6d3f442209fc3b872acd07486/crnn_model/crnn_net.py#L10)
+- [ ] Переписать распознаватель под TF2, сложность в замене [tesorflow.contrib](https://github.com/IgorSondors/CRNN_Tensorflow_Ubuntu18/blob/cbaa4d5c789d3fa6d3f442209fc3b872acd07486/crnn_model/crnn_net.py#L10). Для этого заменить  rnn.stack_bidirectional_dynamic_rnn на [это](https://github.com/tensorflow/tensorflow/issues/33683)
 - [ ] Использовать [tensorflow service](https://www.tensorflow.org/tfx/serving/serving_advanced) в качестве продакшн-сервера на замену Flask
 
